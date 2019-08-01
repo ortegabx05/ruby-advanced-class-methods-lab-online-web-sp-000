@@ -51,7 +51,6 @@ class Song
           new_ar=[]
           array=filename.split("- ")
           artist_name=array[0]
-          # @artist_name=artist_name
           new_ar=array[1].partition(".")
           name=new_ar[0]
           song = self.new
